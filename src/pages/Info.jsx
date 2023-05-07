@@ -4,14 +4,14 @@ import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
-const Home = () => {
+const Info = () => {
   return (
     <>
       <Header />
-      Home
+      Info
       <Footer />
     </>
   );
 };
 
-export default Home;
+export default Info;

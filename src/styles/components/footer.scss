@@ -1,0 +1,37 @@
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: var(--oscuro);
+  z-index: 9;
+
+  ul {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+    padding: 1rem 2rem;
+    margin: 0;
+
+    li {
+      list-style: none;
+      margin: 0 1.5rem;
+
+      a {
+        color: var(--claro);
+
+        ion-icon {
+          font-size: 2rem;
+        }
+
+        ion-icon:hover {
+          color: var(--naranja);
+        }
+      }
+    }
+  }
+}
