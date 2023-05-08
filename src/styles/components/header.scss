@@ -36,6 +36,13 @@ header {
     }
   }
 
+  div:nth-child(3) {
+    width: 2px;
+    height: 6rem;
+    background-color: var(--claro);
+    margin-left: 2rem;
+  }
+
   // Navegador
   nav {
     display: flex;
